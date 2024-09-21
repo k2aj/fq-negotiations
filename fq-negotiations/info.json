@@ -3,11 +3,11 @@
     "title": "FQ Negotiations (WIP)",
     "author": "k2aj",
     
-    "version": "0.1.0",
+    "version": "0.2.0",
     "factorio_version": "1.1",
     "dependencies": [
         "base >= 1.1",
-        "fq-core = 0.1.0"
+        "fq-core = 0.2.0"
     ],
     "description": "Adds new tools for negotiating with your neighbours."
 }

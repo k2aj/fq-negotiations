@@ -26,10 +26,8 @@ data:extend({
                     type = "direct",
                     action_delivery = {
                         type = "instant",
-                        source_effects = {
-                            effect.recoil(12),
-                            {type = "create-fire", entity_name = "fire-flame"},
-                        }
+                        target_effects = {effect.recoil(12)},
+                        source_effects = {{type = "create-fire", entity_name = "fire-flame"}}
                     }
                 }
             }
